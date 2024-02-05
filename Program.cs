@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            
+            Solutioncs solutioncs = new();
+            Console.WriteLine("Enter your string : ");
+            string input = Console.ReadLine();
+            Console.WriteLine(solutioncs.FirstUniqChar(input));
         }
     }
 }

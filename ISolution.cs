@@ -2,6 +2,6 @@
 {
     internal interface ISolution
     {
-        int FirstUniqChar(string s);
+        int FirstUniqChar(string input);
     }
 }
